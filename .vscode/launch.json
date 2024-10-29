@@ -1,0 +1,27 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Votebackend2Application",
+            "request": "launch",
+            "mainClass": "com.example.votebackend2.Votebackend2Application",
+            "projectName": "votebackend2",
+            "env": {
+                "DB_URL": "jdbc:mysql://root:IubbKXctVsaERPQyKENvWjmJrhomJOBM@junction.proxy.rlwy.net:11384/railway",
+                "DB_USERNAME": "root",
+                "DB_PASSWORD": "IubbKXctVsaERPQyKENvWjmJrhomJOBM",
+                "FRONTEND_URL": "http://localhost:3000"  // Added frontend URL
+            }
+        }
+    ]
+}
